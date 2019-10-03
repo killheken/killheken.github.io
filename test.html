@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>input</title>
+</head>
+<body>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<p>&nbsp;</p>
+<form action="{{ url_for('AAA') }}" method="get">
+<p>姓名:&nbsp;<input type="text" name="name" autocomplete="off"/></p>
+<p>起始日期:&nbsp; <input type="text" name="start_date"/></p>
+<p>結束日期:&nbsp;<input type="text" name="end_date"/></p>
+<p>&nbsp;顯示<select name="number">　
+
+
+<option value="5">5</option>
+　
+<option value="10">10</option>
+　
+<option value="15">15</option>
+　
+<option value="20">20</option>
+</select>個結果&nbsp;&nbsp;&nbsp;&nbsp;顯示原訊息<input name="original" type="checkbox" value="" /></p>
+<input type="submit">
+</form>
+
+<p>&nbsp;</p>
+</body>
+
+</html>
